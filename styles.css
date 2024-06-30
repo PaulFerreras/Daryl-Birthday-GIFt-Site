@@ -1,0 +1,49 @@
+body {
+  background: linear-gradient(rgb(242, 202, 255), rgb(251, 245, 200));
+  font-family: "Happy Monkey", system-ui;
+  text-align: center;
+}
+
+#daryl-img {
+  width: 300px;
+  border: 8px solid rgb(233, 119, 119);
+  border-radius: 50%; /* This is the max border-radius. Makes it a circle */
+}
+
+.gift-section {
+  margin-top: 80px;
+}
+
+.gift-giphy {
+  width: 400px;
+  height: 400px;
+  margin: 0px auto;
+  background-image: url("assets/gift-cover.jpg");
+  background-size: cover;
+  border: 6px solid white;
+  border-radius: 10px;
+}
+
+#gift-giphy-cheers {
+  height: 200px;
+}
+
+#gift-giphy-happy:active {
+  background-image: url("assets/happy.gif");
+}
+
+#gift-giphy-hot:active {
+  background-image: url("assets/hot.gif");
+}
+
+#gift-giphy-genius:active {
+  background-image: url("assets/genius.gif");
+}
+
+#gift-giphy-badass:active {
+  background-image: url("assets/badass.gif");
+}
+
+#gift-giphy-cheers:active {
+  background-image: url("assets/cheers.gif");
+}
