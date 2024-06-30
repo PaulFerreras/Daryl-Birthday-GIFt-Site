@@ -26,24 +26,25 @@ body {
 
 #gift-giphy-cheers {
   height: 200px;
+  margin-bottom: 200px;
 }
 
-#gift-giphy-happy:active {
+#gift-giphy-happy:hover {
   background-image: url("assets/happy.gif");
 }
 
-#gift-giphy-hot:active {
+#gift-giphy-hot:hover {
   background-image: url("assets/hot.gif");
 }
 
-#gift-giphy-genius:active {
+#gift-giphy-genius:hover {
   background-image: url("assets/genius.gif");
 }
 
-#gift-giphy-badass:active {
+#gift-giphy-badass:hover {
   background-image: url("assets/badass.gif");
 }
 
-#gift-giphy-cheers:active {
+#gift-giphy-cheers:hover {
   background-image: url("assets/cheers.gif");
 }
